@@ -30,6 +30,7 @@ function App() {
         />
         <Container
           styles={{
+            backgroundColor: "olive",
             border: "1px solid black",
             padding: "1rem",
             display: "grid",
