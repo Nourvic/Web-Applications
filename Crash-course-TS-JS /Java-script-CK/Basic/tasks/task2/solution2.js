@@ -1,3 +1,4 @@
+// in Console
 var mystr = "Hello World";
 
 console.log(mystr.toLowerCase());
@@ -19,3 +20,15 @@ console.log(
 | `reverse()` | Array → Array  | Dreht Reihenfolge um  | `["H","i"].reverse() → ["i","H"]` |
 | `join("")`  | Array → String | Fügt wieder zu String | `["i","H"].join("") → "iH"`       |
 */
+
+// as Html file
+
+var str1 = document.getElementById("result2").innerHTML;
+var str2 = `
+0 » ${str1}<br>
+1 » ${str1.toLowerCase()}<br>
+2 » ${str1.toUpperCase()}<br>
+3 » ${str1.toUpperCase().replace("T", "n")}<br>
+4 » ${str1.toLowerCase().split("").reverse().join("")}`;
+
+document.getElementById("result2").innerHTML = str2;
