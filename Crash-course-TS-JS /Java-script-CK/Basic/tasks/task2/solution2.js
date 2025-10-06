@@ -30,5 +30,16 @@ var str2 = `
 2 » ${str1.toUpperCase()}<br>
 3 » ${str1.toUpperCase().replace("T", "n")}<br>
 4 » ${str1.toLowerCase().split("").reverse().join("")}`;
-
 document.getElementById("result2").innerHTML = str2;
+
+//Input
+document.getElementById("submit-btn").addEventListener("click", function () {
+var str4 = document.getElementById("str-input").value;
+  var str5 = `
+  0 » ${str4}<br>
+  1 » ${str4.toLowerCase()}<br>
+  2 » ${str4.toUpperCase()}<br>
+  3 » ${str4.toUpperCase().replace("T", "n")}<br>
+  4 » ${str4.toLowerCase().split("").reverse().join("")}`;
+  document.getElementById("result").innerHTML = str5;
+});
