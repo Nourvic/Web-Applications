@@ -1,15 +1,20 @@
-let text = "";
-document.getElementById("btn-input").addEventListener("click", function () {
-  text = document.getElementById("str-input").value;
-  const vowles = ["a", "e", "i", "o", "u"];
-  for (var char of text) {
-    let lowerchar = char.toLowerCase();
-    if (!vowles.includes(lowerchar)) {
-      document.getElementById("result").innerHTML += char;
-    } else {
-      continue;
+const input = document.getElementById("str-input");
+const result = document.getElementById("result");
+const btn = document.getElementById("btn-input");
+
+const vowels = ["a", "e", "i", "o", "u"];
+
+btn.addEventListener("click", function () {
+  const text = input.value;
+  let output = "";
+
+  for (const char of text) {
+    const lowerChar = char.toLowerCase();
+    if (!vowels.includes(lowerChar)) {
+      output += char;
     }
   }
-  // console.log(`Hello ${text}`);
-  document.getElementById("str-input").value = "";
+
+  result.innerHTML = output;
+  input.value = "";
 });
