@@ -39,4 +39,12 @@ function callAnotherFunction(functionToCall) {
 callAnotherFunction(function () {
   console.log("Hello from functionToCall");
 });
- 
+
+// Arrow
+var yx = () => console.log("test test test");
+yx();
+
+function test2(callBack) {
+  callBack();
+}
+test2(() => console.log("Hello from Arrow"));
