@@ -48,3 +48,27 @@ function test2(callBack) {
   callBack();
 }
 test2(() => console.log("Hello from Arrow"));
+
+// Map
+{
+  var arr = [10, 20, 30, 40, 50];
+
+  let myArr = arr.map(function (e) {
+    return e * 10;
+  });
+  console.log(myArr);
+}
+// Filter
+{
+  let myArr2 = arr.filter((e) => {
+    return e > 25 && e < 39;
+  });
+  console.log(myArr2);
+}
+// reduce
+{
+  let myArr3 = arr.reduce(function (prevValue, currentValue) {
+    return prevValue + currentValue;
+  });
+  console.log(myArr3);
+}
