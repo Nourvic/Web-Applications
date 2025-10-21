@@ -1,3 +1,4 @@
+const table = document.getElementById("students");
 let students = [
   {
     firstName: "Nour",
@@ -18,7 +19,7 @@ let students = [
   },
 
   {
-    firstName: "NRou",
+    firstName: "Nrou",
     lastName: "tset",
     age: 25,
     printFullName: function () {
@@ -26,6 +27,11 @@ let students = [
     },
   },
 ];
-for (student of students) {
-  student.printFullName();
+for (st of students) {
+    let content = `<tr>
+     <td> ${st.firstName}</td> 
+     <td> ${st.lastName}</td> 
+     <td> ${st.age}</td> 
+    </tr>`
+  table.innerHTML += content
 }
