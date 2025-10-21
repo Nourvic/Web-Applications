@@ -28,10 +28,10 @@ let students = [
   },
 ];
 for (st of students) {
-    let content = `<tr>
+  let content = `<tr>
      <td> ${st.firstName}</td> 
      <td> ${st.lastName}</td> 
      <td> ${st.age}</td> 
-    </tr>`
-  table.innerHTML += content
+    </tr>`;
+  table.innerHTML += content;
 }
