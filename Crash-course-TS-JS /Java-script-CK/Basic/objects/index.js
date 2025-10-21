@@ -44,3 +44,15 @@ let students = [
 students[0].printFullName();
 students[1].printFullName();
 students[2].printFullName();
+
+// Nasted Objects 
+let person = {
+  name: {
+    firstName: "Nour",
+    lastName: "Salim",
+  },
+  age: 26,
+  year: "1999",
+
+  courses: [{ name: "Math", credits: 5 }, {}],
+};
