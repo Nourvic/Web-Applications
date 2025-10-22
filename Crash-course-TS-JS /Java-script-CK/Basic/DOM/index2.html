@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="font-size: 30px;">
+        <ul id="ul">
+            <li> Nour</li>
+            <li> Roun</li>
+            <li> Onur</li>
+        </ul>
+    </div>
+
+
+    <script>
+        let liElement = document.createElement("li")
+        let textContent = document.createTextNode("Noru")
+        liElement.appendChild(textContent)
+        document.getElementById("ul").appendChild(liElement)
+    </script>
+</body>
+
+</html>
