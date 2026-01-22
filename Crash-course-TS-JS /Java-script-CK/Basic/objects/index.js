@@ -41,9 +41,9 @@ let students = [
     },
   },
 ];
-students[0].printFullName();
-students[1].printFullName();
-students[2].printFullName();
+//students[0].printFullName();
+//students[1].printFullName();
+//students[2].printFullName();
 
 // Nasted Objects 
 let person = {
@@ -54,5 +54,8 @@ let person = {
   age: 26,
   year: "1999",
 
-  courses: [{ name: "Math", credits: 5 }, {}],
+  courses: [{ name: "Math", credits: 5 }, {message:"Kolkahra"},{}],
 };
+//console.log(person.courses[1].message)
+//console.log(person.courses[0].message="Habibi")
+//console.log(person.courses[0].credits)
