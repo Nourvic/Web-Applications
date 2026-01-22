@@ -1,7 +1,7 @@
 const bmi_rechner = (x1, x2) => x1 / Math.pow(x2, 2);
 document.getElementById("submit-btn").addEventListener("click", function () {
   const gewicht = parseFloat(document.getElementById("weight-input").value);
-  const groesse = parseFloat(document.getElementById("height-input").value);
+  const groesse = parseFloat(document.getElementById("height-input").value) /100;
   const bmiWert = bmi_rechner(gewicht, groesse);
   const bmi_r = parseFloat(bmiWert.toFixed(2));
 
