@@ -48,3 +48,4 @@ const xy = ob5.gdp;
 if (typeof xy === "number") {
   console.log(x.toFixed(2));
 }
+export {};
