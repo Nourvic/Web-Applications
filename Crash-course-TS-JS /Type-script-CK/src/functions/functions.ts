@@ -9,7 +9,7 @@ const vfunc: () => string = () => {
 
 const zfunc: (x: number, y: number) => number = (x, y) => {
   return x + y;
-};
+}; 
 
 const yfunc = (x: string, y: number) => {
   return ["Test", 7];
