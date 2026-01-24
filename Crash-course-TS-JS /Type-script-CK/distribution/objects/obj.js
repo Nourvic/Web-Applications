@@ -1,12 +1,12 @@
-var obj1 = {
+const obj1 = {
     name: "test",
     age: 25,
 };
-var obj2 = {
+const obj2 = {
     name: "NNN",
     age: 99,
 };
-var obj3 = {
+const obj3 = {
     name: "Nour",
     age: 26,
 };
@@ -16,18 +16,19 @@ var obj3 = {
 // Lösung: Objekt mit Index Signature definieren,
 // um dynamische Properties zu erlauben
 // { key: string -> Property-Name, value: any -> Property-Typ }
-var obj4 = {
+const obj4 = {
     name: "Nour",
     age: 26,
 };
 obj4.birthDate = "1990-01-01";
-var ob5 = {
+const ob5 = {
     name: "testst",
     age: 20,
 };
 ob5.gdp = "3.0";
 ob5.gdp = 2.0;
-var xy = ob5.gdp;
+const xy = ob5.gdp;
 if (typeof xy === "number") {
     console.log(x.toFixed(2));
 }
+export {};

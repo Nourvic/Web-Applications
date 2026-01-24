@@ -1,9 +1,9 @@
-var str = "hello";
-var num = 20;
-var arr = [1, 2, 3, 4];
-var arr2 = ["c", "v", 'a'];
-var arr3 = ["Test", 2, false, 5, true, "yess!!"];
-var arr4 = ['Nos', 2];
-var v = 20;
+let str = "hello";
+let num = 20;
+let arr = [1, 2, 3, 4];
+let arr2 = ["c", "v", 'a'];
+let arr3 = ["Test", 2, false, 5, true, "yess!!"];
+let arr4 = ['Nos', 2];
+let v = 20;
 v = "V";
 v = true;

@@ -1,26 +1,24 @@
-"use strict";
-var _a;
-Object.defineProperty(exports, "__esModule", { value: true });
-var y;
+let y;
 y = {
     name: "",
     age: 25,
 };
-var test = {
+let test = {
     name: "nour",
 };
-var w = {
+let w = {
     name: "nour",
     age: 25,
 };
-var myNumber1 = y.age;
-var myNumber2 = (_a = y.age) !== null && _a !== void 0 ? _a : 0;
+const myNumber1 = y.age;
+const myNumber2 = y.age ?? 0;
 var BookingStatus;
 (function (BookingStatus) {
     BookingStatus["initial"] = "initial";
     BookingStatus["paid"] = "paid";
     BookingStatus["cancelled"] = "cancelled";
 })(BookingStatus || (BookingStatus = {}));
-var bookingStatus = BookingStatus.initial;
+let bookingStatus = BookingStatus.initial;
 bookingStatus = BookingStatus.paid;
 bookingStatus = BookingStatus.cancelled;
+export {};

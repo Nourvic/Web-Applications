@@ -1,17 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.x = void 0;
-var x = function () {
+export const x = () => {
     //   console.log("Hello World !!")
     return 10;
 };
-exports.x = x;
-var vfunc = function () {
+const vfunc = () => {
     return "test from TS";
 };
-var zfunc = function (x, y) {
+const zfunc = (x, y) => {
     return x + y;
 };
-var yfunc = function (x, y) {
+const yfunc = (x, y) => {
     return ["Test", 7];
 };
