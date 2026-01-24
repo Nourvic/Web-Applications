@@ -1,0 +1,9 @@
+var str = "hello";
+var num = 20;
+var arr = [1, 2, 3, 4];
+var arr2 = ["c", "v", 'a'];
+var arr3 = ["Test", 2, false, 5, true, "yess!!"];
+var arr4 = ['Nos', 2];
+var v = 20;
+v = "V";
+v = true;
