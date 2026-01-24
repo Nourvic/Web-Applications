@@ -1,6 +1,6 @@
 export interface Person {
   name: string;
-  age?:number;
+  age?: number;
 }
 let y: Person;
 
@@ -24,6 +24,15 @@ let w: myType2 = {
   age: 25,
 };
 
-const myNumber1:number = y.age!;
-const myNumber2:number = y.age ?? 0;
+const myNumber1: number = y.age!;
+const myNumber2: number = y.age ?? 0;
 
+enum BookingStatus {
+  initial = "initial",
+  paid = "paid",
+  cancelled = "cancelled",
+}
+
+let bookingStatus: BookingStatus = BookingStatus.initial;
+bookingStatus = BookingStatus.paid;
+bookingStatus = BookingStatus.cancelled;
