@@ -1,6 +1,10 @@
-var x = 10;
-var y = "10";
-y = "Hello zusammen";
-y = document.getElementById("first").innerHTML = "Hello World from Typescript";
-alert(y);
-//s 
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let userid = 25;
+var firstname = "Nour";
+console.log("ID :" + userid + " and name is : " + firstname);
+let str = "Hallo Nour";
+alert(str);
+let str2 = "SaY my NaMe";
+alert(str2);
+//# sourceMappingURL=index.js.map
