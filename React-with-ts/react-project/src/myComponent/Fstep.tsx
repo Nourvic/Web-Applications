@@ -7,7 +7,10 @@ export default function Fstep() {
       <h2 style={{ backgroundColor: "tan" }}>
         hi {person.name} , email : {person.email}
       </h2>
-      <button className="button" onClick={sayHello}>
+      <h3 style={person.name == "Nour" ? elmStyle : { backgroundColor: "slateblue" }}>
+        Check Name
+      </h3>
+      <button className={"button"} onClick={sayHello}>
         Click Me
       </button>
     </div>
