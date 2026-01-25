@@ -9,18 +9,21 @@
 
 <body>
 
-    <h2>Js Requests</h2>
-
-
+    <div id="content"></div>
 
     <script>
         let request = new XMLHttpRequest()
         request.open("GET", "https://jsonplaceholder.typicode.com/posts")
+        request.responseType = "json"
         //request
         request.send()
         //response
         request.onload = function () {
-            console.log(request.responseText)
+            let posts = request.response;
+
+            for (post of posts) {
+                document.getElementById("content").innerHTML += `<h1>${post.title}</h1>`
+            }
         }
     </script>
 </body>
