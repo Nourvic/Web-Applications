@@ -3,7 +3,7 @@ interface person {
   email: string;
   age: number;
 }
-export default function artikel(props) {
+export default function Artikel(props) {
   return (
     <div>
       <h1>Roun</h1>
