@@ -11,11 +11,14 @@ import "./App.css";
 //import SideMenu from "./myComponent/task1/SideMenu";
 //import Artikel from "./myComponent/task2/artikel";
 import MyButton from "./myComponent/task3/MyButton";
+import MyInput from "./myComponent/task3/MyInput";
+
 function App() {
   return (
     <>
       <div>
-        <MyButton/>
+        <MyButton />
+        <MyInput />
       </div>
     </>
   );
