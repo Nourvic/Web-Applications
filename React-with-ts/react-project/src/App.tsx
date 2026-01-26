@@ -9,17 +9,23 @@ import "./App.css";
 //import Header from "./myComponent/task1/Header";
 //import Posts from "./myComponent/task1/Posts";
 //import SideMenu from "./myComponent/task1/SideMenu";
-import Artikel from "./myComponent/task2/artikel";
+//import Artikel from "./myComponent/task2/artikel";
 function App() {
+  const tasks = [
+    { id: 1, title: "doing my homework" },
+    { id: 2, title: "Studying" },
+    { id: 3, title: "reading a book" },
+    { id: 4, title: "chaning my room " },
+  ];
+
+  const myTaskList = tasks.map((task) => {
+    return <li key={task.id}>{task.title}</li>;
+  });
+  console.log(myTaskList);
   return (
     <>
-      <div style={{ backgroundColor: "white", color: "black" }}>
-        <Artikel personName={"Nour"} email={"test1@gmail.com"} date={1999}>
-          <p> ich bin das erste Kind vom Artikel 1 </p>
-        </Artikel>
-        <Artikel personName={"ourn"} email={"test3@gmail.com"} date={2001}>
-          <p>das ist das 2te Child</p>
-        </Artikel>
+      <div>
+        <ul>{myTaskList}</ul>
       </div>
     </>
   );
