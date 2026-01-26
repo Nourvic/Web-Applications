@@ -10,7 +10,20 @@ import "./App.css";
 //import Posts from "./myComponent/task1/Posts";
 //import SideMenu from "./myComponent/task1/SideMenu";
 //import Artikel from "./myComponent/task2/artikel";
+import MyButton from "./myComponent/task3/MyButton";
 function App() {
+  return (
+    <>
+      <div>
+        <MyButton/>
+      </div>
+    </>
+  );
+}
+
+export default App;
+
+/*
   const tasks = [
     { id: 1, title: "doing my homework" },
     { id: 2, title: "Studying" },
@@ -22,13 +35,4 @@ function App() {
     return <li key={task.id}>{task.title}</li>;
   });
   console.log(myTaskList);
-  return (
-    <>
-      <div>
-        <ul>{myTaskList}</ul>
-      </div>
-    </>
-  );
-}
-
-export default App;
+*/
