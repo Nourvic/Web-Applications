@@ -1,14 +1,17 @@
-interface person {
-  name: string;
+export default function Artikel({
+  personName,
+  email,
+  date,
+}: {
+  personName: string;
   email: string;
-  age: number;
-}
-export default function Artikel(props) {
+  date: number;
+}) {
   return (
     <div>
-      <h1>Roun</h1>
-      <h3>test@gmail.com</h3>
-      <h3>1999</h3>
+      <h1>{personName}</h1>
+      <h3>{email}</h3>
+      <h3>{date}</h3>
     </div>
   );
 }
