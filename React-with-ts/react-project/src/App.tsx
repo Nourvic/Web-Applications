@@ -14,12 +14,17 @@ import "./App.css";
 //import MyInput from "./myComponent/task3/MyInput";
 //import Arr from "./myComponent/task4/Arr";
 //import Navbar from "./myComponent/task5/Navbar";
-import Header2 from "./myComponent/task5/Header2";
+//import Header2 from "./myComponent/task5/Header2";
+import SayHello from "./myComponent/task1/SayHello";
 function App() {
+  const objData = {
+    fName: "Nour",
+    lName: "Salim",
+  };
   return (
     <>
       <div>
-        <Header2 />
+        <SayHello firstName={objData.fName} lastName={objData.lName} />
       </div>
     </>
   );
