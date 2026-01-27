@@ -20,14 +20,15 @@ import "./App.css";
 //import Status from "./myComponent/task6/Status";
 //import Heading from "./myComponent/task6/Heading";
 //import Layout from "./myComponent/task6/Layout";
-import Btn from "./myComponent/task6/Btn";
-import Input from "./myComponent/task6/Input";
+//import Btn from "./myComponent/task6/Btn";
+//import Input from "./myComponent/task6/Input";
+//import Loggedin from "./myComponent/task7/Loggedin";
+import User from "./myComponent/task7/User";
 function App() {
   return (
     <>
       <div>
-        <Btn handleClick={(event, id) => console.log(event.target, id)} />
-        <Input value="" handleChange={(e) => console.log(e.target.value)} />
+        <User />
       </div>
     </>
   );
