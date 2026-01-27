@@ -11,7 +11,7 @@ export default function () {
   const devicesList = devices.map((device, index) => {
     return <li key={index}>{device}</li>;
   });
-
+  //
   function handleAddClick() {
     /*
     const newDevices = [...devices];
@@ -19,7 +19,7 @@ export default function () {
     setDevices(newDevices);
 */
     setDevices([...devices, deviceNameInputValue]);
-    setdeviceNameInputValue("")
+    setdeviceNameInputValue("");
   }
   //console.log(devicesList);
   return (
