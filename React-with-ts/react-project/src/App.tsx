@@ -10,15 +10,14 @@ import "./App.css";
 //import Posts from "./myComponent/task1/Posts";
 //import SideMenu from "./myComponent/task1/SideMenu";
 //import Artikel from "./myComponent/task2/artikel";
-import MyButton from "./myComponent/task3/MyButton";
-import MyInput from "./myComponent/task3/MyInput";
-
+//import MyButton from "./myComponent/task3/MyButton";
+//import MyInput from "./myComponent/task3/MyInput";
+import Arr from "./myComponent/task4/Arr";
 function App() {
   return (
     <>
       <div>
-        <MyButton />
-        <MyInput />
+        <Arr />
       </div>
     </>
   );
