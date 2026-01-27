@@ -23,12 +23,12 @@ import "./App.css";
 //import Btn from "./myComponent/task6/Btn";
 //import Input from "./myComponent/task6/Input";
 //import Loggedin from "./myComponent/task7/Loggedin";
-import User from "./myComponent/task7/User";
+import User2 from "./myComponent/task7/User2";
 function App() {
   return (
     <>
       <div>
-        <User />
+        <User2 />
       </div>
     </>
   );
