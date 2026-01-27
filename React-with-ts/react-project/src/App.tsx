@@ -17,17 +17,17 @@ import "./App.css";
 //import Header2 from "./myComponent/task5/Header2";
 //import SayHello from "./myComponent/task1/SayHello";
 //import SayHellotoArrays from "./myComponent/task1/SayHellotoArrays";
-import Status from "./myComponent/task6/Status";
-import Heading from "./myComponent/task6/Heading";
-import Layout from "./myComponent/task6/Layout";
+//import Status from "./myComponent/task6/Status";
+//import Heading from "./myComponent/task6/Heading";
+//import Layout from "./myComponent/task6/Layout";
+import Btn from "./myComponent/task6/Btn";
+import Input from "./myComponent/task6/Input";
 function App() {
   return (
     <>
       <div>
-        <Status status={"loading"} />
-        <Layout>
-          <Heading>this is a Heading</Heading>
-        </Layout>
+        <Btn handleClick={(event, id) => console.log(event.target, id)} />
+        <Input value="" handleChange={(e) => console.log(e.target.value)} />
       </div>
     </>
   );
