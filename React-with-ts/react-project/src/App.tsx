@@ -15,16 +15,19 @@ import "./App.css";
 //import Arr from "./myComponent/task4/Arr";
 //import Navbar from "./myComponent/task5/Navbar";
 //import Header2 from "./myComponent/task5/Header2";
-import SayHello from "./myComponent/task1/SayHello";
+//import SayHello from "./myComponent/task1/SayHello";
+import SayHellotoArrays from "./myComponent/task1/SayHellotoArrays";
 function App() {
-  const objData = {
-    fName: "Nour",
-    lName: "Salim",
-  };
+  const arrData = [
+    { firstName: "Nour", lastName: "1" },
+    { firstName: "Samuel", lastName: "2" },
+    { firstName: "Rico", lastName: "3" },
+    { firstName: "Nixis", lastName: "4" },
+  ];
   return (
     <>
       <div>
-        <SayHello firstName={objData.fName} lastName={objData.lName} />
+        <SayHellotoArrays arrData={arrData} />
       </div>
     </>
   );
