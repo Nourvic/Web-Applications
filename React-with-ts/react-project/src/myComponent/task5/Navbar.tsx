@@ -9,11 +9,10 @@ export default function Navbar() {
     <div>
       <nav>
         <ul>
-          {links.map((event, index) => {
+          {links.map((link, index) => {
             return (
               <li key={index}>
-                {" "}
-                <a href={event.url}>{event.title}</a>
+                <a href={link.url}>{link.title}</a>
               </li>
             );
           })}

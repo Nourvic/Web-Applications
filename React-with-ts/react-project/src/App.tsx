@@ -13,12 +13,13 @@ import "./App.css";
 //import MyButton from "./myComponent/task3/MyButton";
 //import MyInput from "./myComponent/task3/MyInput";
 //import Arr from "./myComponent/task4/Arr";
-import Navbar from "./myComponent/task5/Navbar";
+//import Navbar from "./myComponent/task5/Navbar";
+import Header2 from "./myComponent/task5/Header2";
 function App() {
   return (
     <>
       <div>
-        <Navbar />
+        <Header2 />
       </div>
     </>
   );
