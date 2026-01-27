@@ -19,6 +19,7 @@ export default function () {
     setDevices(newDevices);
 */
     setDevices([...devices, deviceNameInputValue]);
+    setdeviceNameInputValue("")
   }
   //console.log(devicesList);
   return (
